@@ -70,4 +70,4 @@ bundle exec kitchen destroy
 
 ## 📓 Terraform Documentation
 
-- [regional](regional/README.md)
+- [global](global/README.md)
