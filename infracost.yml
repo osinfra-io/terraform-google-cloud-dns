@@ -1,0 +1,9 @@
+# Infracost Config File
+# https://www.infracost.io/docs/features/config_file
+
+version: 0.1
+
+projects:
+  - name: "terraform-google-cloud-dns - Default"
+    path: test/fixtures/default_cloud_dns
+    usage_file: test/fixtures/default_cloud_dns/infracost-usage.yml
