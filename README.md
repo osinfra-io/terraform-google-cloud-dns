@@ -1,4 +1,4 @@
-# <img align="left" width="45" height="45" src="https://github.com/osinfra-io/terraform-google-cloud-dns/assets/1610100/20f4f75e-bf62-46e5-8f35-0ba3a9482b39"> Google Cloud Platform - Cloud DNS Terraform Module
+# <img align="left" width="45" height="45" src="https://github.com/osinfra-io/terraform-google-cloud-dns/assets/1610100/522eb664-92ad-4962-86d6-5206e9257b21"> Google Cloud Platform - Cloud DNS Terraform Module
 
 **[GitHub Actions](https://github.com/osinfra-io/terraform-google-cloud-dns/actions):**
 
