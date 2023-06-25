@@ -8,7 +8,7 @@
 
 [![infracost](https://img.shields.io/endpoint?label=Default&url=https://dashboard.api.infracost.io/shields/json/cbeecfe3-576f-4553-984c-e451a575ee47/repos/46392ab4-cde4-4013-b146-95f5e0476ba8/branch/b70ef89a-aeec-4730-86df-c2358e0d1e78/terraform-google-cloud-dns%2520-%2520Default)](https://dashboard.infracost.io/org/osinfra-io/repos/46392ab4-cde4-4013-b146-95f5e0476ba8?tab=settings)
 
-Monthly cost estimates for this module based off these usage values:
+Monthly cost estimates for this module based on these usage values:
 
 - [default_cloud_dns](test/fixtures/default_cloud_dns/infracost-usage.yml)
 
