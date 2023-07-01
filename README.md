@@ -14,7 +14,7 @@ Monthly cost estimates for this module based on these usage values:
 
 ## Repository Description
 
-Terraform **example** module for a Google Cloud Platform VPC.
+Terraform **example** module for a Google Cloud Platform Cloud DNS.
 
 💡 *We do not recommend consuming this module like you might a [public module](https://registry.terraform.io/browse/modules). Its purpose is to be a baseline, something you can fork and potentially maintain on your own and modify to fit your organization's needs. Using public modules vs. writing your own have various [drivers and trade-offs](https://github.com/orgs/osinfra-io/discussions/3) that your organization should evaluate.*
 
