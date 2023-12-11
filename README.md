@@ -32,10 +32,11 @@ Here is an example of a basic configuration:
 module "cloud_dns" {
   source   = "github.com/osinfra-io/terraform-google-cloud-dns//global?ref=v0.0.0"
 
-  domain     = "example.com"
-  name       = "example"
-  project_id = "example-project"
-  type       = "public"
+  cost_center = "x000"
+  domain      = "example.com"
+  name        = "example"
+  project_id  = "example-project"
+  type        = "public"
 }
 ```
 
