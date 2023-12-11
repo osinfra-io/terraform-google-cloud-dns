@@ -1,3 +1,8 @@
+variable "cost_center" {
+  description = "The cost center to use for resource labels"
+  type        = string
+}
+
 variable "description" {
   description = "A textual description field. Defaults to 'Managed by Terraform'"
   type        = string
@@ -10,8 +15,8 @@ variable "dns_name" {
 }
 
 variable "labels" {
-  type        = map(any)
-  description = "A set of key/value label pairs to assign to this ManagedZone"
+  description = "A map of key/value pairs to assign to the resources being created"
+  type        = map(string)
   default     = {}
 }
 
