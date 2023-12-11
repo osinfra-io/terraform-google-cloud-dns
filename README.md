@@ -6,7 +6,7 @@
 
 **[Infracost](https://www.infracost.io):**
 
-[![infracost](https://img.shields.io/endpoint?label=Default&url=https://dashboard.api.infracost.io/shields/json/cbeecfe3-576f-4553-984c-e451a575ee47/repos/46392ab4-cde4-4013-b146-95f5e0476ba8/branch/b70ef89a-aeec-4730-86df-c2358e0d1e78/terraform-google-cloud-dns%2520-%2520Default)](https://dashboard.infracost.io/org/osinfra-io/repos/46392ab4-cde4-4013-b146-95f5e0476ba8?tab=settings)
+[![infracost](https://img.shields.io/endpoint?label=default_cloud_dns&url=https://dashboard.api.infracost.io/shields/json/cbeecfe3-576f-4553-984c-e451a575ee47/repos/46392ab4-cde4-4013-b146-95f5e0476ba8/branch/b70ef89a-aeec-4730-86df-c2358e0d1e78/default_cloud_dns)](https://dashboard.infracost.io/org/osinfra-io/repos/46392ab4-cde4-4013-b146-95f5e0476ba8?tab=settings)
 
 Monthly cost estimates for this module based on these usage values:
 
@@ -50,6 +50,7 @@ To avoid slowing down stream-aligned teams, we want to open up the possibility f
 See the documentation for setting up a local development environment [here](https://docs.osinfra.io/fundamentals/development-setup).
 
 ### 🛠️ Tools
+
 - [infracost](https://github.com/infracost/infracost)
 - [inspec](https://github.com/inspec/inspec)
 - [kitchen-terraform](https://github.com/newcontext-oss/kitchen-terraform)
