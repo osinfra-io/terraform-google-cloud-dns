@@ -22,7 +22,6 @@ suites:
     transport:
       root_module_directory: test/fixtures/default_cloud_dns
     verifier:
-      color: true
       systems:
         - name: inspec_gcp
           backend: gcp

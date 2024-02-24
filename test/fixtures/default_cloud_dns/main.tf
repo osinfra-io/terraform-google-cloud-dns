@@ -9,8 +9,9 @@ module "private_test" {
   dns_name    = "gcp-priv.osinfra.io."
 
   labels = {
-    env  = "sb"
-    team = "testing"
+    env        = "sb"
+    repository = "terraform-google-cloud-dns"
+    team       = "testing"
   }
 
   name                               = "gcp-priv-osinfra-io"
@@ -30,8 +31,9 @@ module "public_test" {
   dns_name    = "gcp.osinfra.io."
 
   labels = {
-    env  = "sb"
-    team = "testing"
+    env        = "sb"
+    repository = "terraform-google-cloud-dns"
+    team       = "testing"
   }
 
   name       = "gcp-osinfra-io"
