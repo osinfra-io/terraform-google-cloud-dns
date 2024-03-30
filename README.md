@@ -8,9 +8,7 @@
 
 [![infracost](https://img.shields.io/endpoint?label=default_cloud_dns&url=https://dashboard.api.infracost.io/shields/json/cbeecfe3-576f-4553-984c-e451a575ee47/repos/46392ab4-cde4-4013-b146-95f5e0476ba8/branch/b70ef89a-aeec-4730-86df-c2358e0d1e78/default_cloud_dns)](https://dashboard.infracost.io/org/osinfra-io/repos/46392ab4-cde4-4013-b146-95f5e0476ba8?tab=settings)
 
-Monthly cost estimates for this module based on these usage values:
-
-- [default_cloud_dns](test/fixtures/default_cloud_dns/infracost-usage.yml)
+💵 Monthly estimates based on Infracost baseline costs.
 
 ## Repository Description
 
@@ -27,20 +25,6 @@ Terraform **example** module for a Google Cloud Platform DNS.
 The following API(s) must be enabled in your project to use this module:
 
 - `dns.googleapis.com`
-
-Here is an example of a basic configuration:
-
-```hcl
-module "cloud_dns" {
-  source   = "github.com/osinfra-io/terraform-google-cloud-dns//global?ref=v0.0.0"
-
-  cost_center = "x000"
-  domain      = "example.com"
-  name        = "example"
-  project_id  = "example-project"
-  type        = "public"
-}
-```
 
 ## <img align="left" width="35" height="35" src="https://github.com/osinfra-io/github-organization-management/assets/1610100/39d6ae3b-ccc2-42db-92f1-276a5bc54e65"> Development
 
