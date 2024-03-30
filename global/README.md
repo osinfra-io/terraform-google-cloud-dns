@@ -11,7 +11,7 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_google"></a> [google](#provider\_google) | 5.8.0 |
+| <a name="provider_google"></a> [google](#provider\_google) | 5.22.0 |
 
 ## Modules
 
@@ -27,7 +27,6 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_cost_center"></a> [cost\_center](#input\_cost\_center) | The cost center to use for resource labels | `string` | n/a | yes |
 | <a name="input_description"></a> [description](#input\_description) | A textual description field. Defaults to 'Managed by Terraform' | `string` | `null` | no |
 | <a name="input_dns_name"></a> [dns\_name](#input\_dns\_name) | The DNS name of this managed zone, for instance 'example.com.' (must end with a period) | `string` | n/a | yes |
 | <a name="input_labels"></a> [labels](#input\_labels) | A map of key/value pairs to assign to the resources being created | `map(string)` | `{}` | no |
