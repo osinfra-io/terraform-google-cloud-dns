@@ -4,7 +4,7 @@
 resource "google_dns_managed_zone" "this" {
   description = var.description
   dns_name    = var.dns_name
-  labels      = local.labels
+  labels      = var.labels
   name        = var.name
   project     = var.project
   visibility  = var.visibility

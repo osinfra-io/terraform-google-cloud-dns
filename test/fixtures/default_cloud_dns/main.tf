@@ -5,13 +5,13 @@ module "private_test" {
 
   source = "../../../global"
 
-  cost_center = "x000"
-  dns_name    = "gcp-priv.osinfra.io."
+  dns_name = "gcp-priv.osinfra.io."
 
   labels = {
-    env        = "sb"
-    repository = "terraform-google-cloud-dns"
-    team       = "testing"
+    cost-center = "x000"
+    env         = "sb"
+    repository  = "terraform-google-cloud-dns"
+    team        = "testing"
   }
 
   name                               = "gcp-priv-osinfra-io"
@@ -27,13 +27,13 @@ module "public_test" {
 
   source = "../../../global"
 
-  cost_center = "x000"
-  dns_name    = "gcp.osinfra.io."
+  dns_name = "gcp.osinfra.io."
 
   labels = {
-    env        = "sb"
-    repository = "terraform-google-cloud-dns"
-    team       = "testing"
+    cost-center = "x000"
+    env         = "sb"
+    repository  = "terraform-google-cloud-dns"
+    team        = "testing"
   }
 
   name       = "gcp-osinfra-io"

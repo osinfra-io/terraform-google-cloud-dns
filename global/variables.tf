@@ -1,8 +1,3 @@
-variable "cost_center" {
-  description = "The cost center to use for resource labels"
-  type        = string
-}
-
 variable "description" {
   description = "A textual description field. Defaults to 'Managed by Terraform'"
   type        = string
