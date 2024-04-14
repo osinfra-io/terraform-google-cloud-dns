@@ -15,7 +15,7 @@ module "private_test" {
   }
 
   name                               = "gcp-priv-osinfra-io"
-  private_visibility_config_networks = ["https://www.googleapis.com/compute/v1/projects/${var.project}/global/networks/kitchen-vpc"]
+  private_visibility_config_networks = ["https://www.googleapis.com/compute/v1/projects/${var.project}/global/networks/terraform-test-vpc"]
   project                            = var.project
   visibility                         = "private"
 }
