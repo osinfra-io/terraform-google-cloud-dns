@@ -3,7 +3,7 @@ module "private_test" {
   # This module will be consumed using the source address of the github repo and not the "../../../global" used in this test.
   # source = "github.com/osinfra-io/terraform-google-cloud-dns//global?ref=v0.0.0"
 
-  source = "../../../global"
+  source = "../../global"
 
   dns_name = "gcp-priv.osinfra.io."
 
@@ -25,7 +25,7 @@ module "public_test" {
   # This module will be consumed using the source address of the github repo and not the "../../../global" used in this test.
   # source = "github.com/osinfra-io/terraform-google-cloud-dns//global?ref=v0.0.0"
 
-  source = "../../../global"
+  source = "../../global"
 
   dns_name = "gcp.osinfra.io."
 
